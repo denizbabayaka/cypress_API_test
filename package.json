@@ -1,0 +1,25 @@
+{
+  "name": "api_test",
+  "version": "1.0.0",
+  "description": "api_test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "openMode": "npx cypress open",
+    "runMode": "npx cypress run",
+    "run1": "npx cypress run --spec cypress/e2e/task.js"
+  },
+  "author": "Deniz Babayaka",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.5.1",
+    "cypress-mochawesome-reporter": "^3.3.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cypress-plugin-api": "^2.10.3",
+    "cypress-xpath": "^2.0.1",
+    "fast-csv": "^4.3.6"
+  }
+}
